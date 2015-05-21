@@ -1,4 +1,6 @@
-# CortexDevelopment.github.io
+# Copyright Information
+______________________________________
+>(c) 2015, Cortex, All rights reserved
 >Free open source development company!
 >
 >Our code is copyright to Cortex Development (www.cor-tex.tk)
@@ -12,6 +14,14 @@
 >we dont like people taking advantage so dont!
 >
 >
->
+>We are under the **Creative Common Licence** Found **Below**. Please read!
 
+# Creative Common License
+______________________________________________________________________
+
+
+
+_________
 *We wont always give permission so please still ask!
+
+
