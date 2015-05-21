@@ -8,6 +8,6 @@ $(function () {
 			var greeting = $('#greeting');
 
 			name.keyup(function () {
-				greeting.text('Welcome ' + name.val() + ' to cortex!');
+				greeting.text(name.val());
 			})
 		})
