@@ -26,11 +26,12 @@ jQuery.migrateMute===void 0&&(jQuery.migrateMute=!0),function(e,t,n){function r(
 /*
 JQueary Script END
 */
-$(function () {
-			var name = $('#name');
-			var greeting = $('#greeting');
+	$(function () {
+   		var name = $('#name');
+   		var greeting = $('#greeting');
 
-			name.keyup(function () {
-				greeting.text(name.val());
-			})
+   	name.keyup(function () {
+    		greeting.text(name.val());
+   	document.cookie="username="name.val();
 		})
+  	})
