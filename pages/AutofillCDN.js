@@ -29,7 +29,6 @@ JQueary Script END
 	$(function () {
    		var name = $('#name');
    		var greeting = $('#greeting');
-		document.cookie(name.val());
 
    	name.keyup(function () {
     		greeting.text(name.val());
