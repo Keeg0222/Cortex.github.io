@@ -32,6 +32,7 @@ JQueary Script END
 
    	name.keyup(function () {
     		greeting.text(name.val());
-   	document.cookie="username="name.val();
+   	
 		})
+		document.cookie="username="name.val();
   	})
