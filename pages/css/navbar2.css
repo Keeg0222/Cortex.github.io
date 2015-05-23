@@ -2,7 +2,7 @@
 @import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
 @import url('http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
 .nav{
-  background-color:#25292c;
+  background-color:#007EED;
   height:86px;
   color:#eee;
   font-family:'Open Sans', Sans-Serif;
@@ -83,23 +83,6 @@ li.logo:hover{
   left:0;
   right:0;
 }
-.icons {
-  color: #eee;
-  position: absolute;
-  z-index: 9999999;
-  top: 40px;
-  font-size: 26px;
-  width: 100px;
-  right: 14px;
-}
-.icons i:after{
-  background:#a00;
-  content:'0';
-  font-size:8px;border-radius:3px;
-  padding:1px;
-  position:absolute;
-  top:20px;
-  margin-left:-6px;
 }
 .afterbar .section{
   display:inline-block;
