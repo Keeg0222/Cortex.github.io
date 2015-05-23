@@ -8,9 +8,29 @@
 <title>
 	Navbar Testing Page #2
 </title>
+<style>
+	
+	* {
+    margin: 0;
+}
+html, body {
+    height: 100%;
+}
+.wrapper {
+    min-height: 100%;
+    height: auto !important;
+    height: 100%;
+    margin: 0 auto -142px; 
+}
+.footer, .push {
+    height: 142px; 
+}
 
+
+	
+</style>
 <link href="css/navbar2.css" rel="stylesheet">
-<link href="css/footer2.html" rel="stylesheet">
+<link href="css/footer2.css" rel="stylesheet">
 </head>
 <body>
 <div class="nav">
@@ -25,7 +45,14 @@
     <a href="#"><li>More</li></a>
   </ul>  
     
-    <footer>
+    
+    <div class='wrapper'>
+    Hello, World!
+    <div class='push'></div>
+</div>
+<div class='footer'>
+	
+	<footer>
   <div class="copyright">
     <p>&copy 2015 - Cortex</p>
   </div>
@@ -36,6 +63,9 @@
     <a href="#" class="linked">in</a>
   </div>
 </footer>
+	
+</div>
+    
 
 </body>
 </html>
