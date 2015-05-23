@@ -55,25 +55,6 @@ li.logo img{
 li.logo:hover{
   box-shadow:none;
 }
-.username{
-  display:inline-block;
-  vertical-align:top;
-  text-align:left;
-  float:left;
-  margin-left:5px;
-  color:rgb(55, 117, 132);
-  text-transform:uppercase;
-}
-.username small{
-  color:#eee;
-  font-size:10px;
-  text-transform:capitalize;
-}
-.username p{
-  position:relative;
-  top:-25px;
-  font-size:18px;
-}
 .afterbar{
   background:#005BED;
   width:100%;
