@@ -1,65 +1,61 @@
-/*
-www.cor-tex.tk
-Copyright, 2015, Cortex, All rights reserved
-Made By: Keegan Bourque!
-*/
-/*Import Font*/
-@import url('http://fonts.googleapis.com/css?family=Open+Sans+Condensed:700');
-/*More Font*/
-@import url('http://fonts.googleapis.com/css?family=Open+Sans:300');
-/*Font Awesome Icon CDN*/
-@import url('http://netdna.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css');
-/*Nav Bar CSS*/
-.nav{
-  background-color:#007EED;
-  height:86px;
-  color:#eee;
-  font-family:'Open Sans', Sans-Serif;
-  position:absolute;
-  top:0;
-  left:0;
-  right:0;
-  text-align:center;
+@import url(http://fonts.googleapis.com/css?family=Open+Sans+Condensed:300,700);
+
+menu {
+  width: 100%;
+  margin-left: -500px;
+  padding-left: 500px;
+  margin-right: -500px;
+  padding-right: 500px;
+  margin-top: -19px;
+  height: 100px;
+  background: #25292C;
+  border-bottom: 30px solid #1E1F1F;
 }
-.nav li{
-  display:inline-block;
-  vertical-align:middle;
-  text-transform:uppercase;
-  font-family: 'Open Sans Condensed', sans-serif;
-  font-size: 24px;
+
+menu a {
+  text-decoration: none !important;
+}
+ 
+#ip {
+  float: right;
+  font-family: Open Sans Condensed;
+  background: #63CBE4;
+  color: #fff;
+  padding:10px;
+  margin-left: -20px;
+  margin-top: -115px;
+  border-radius: 5px;
+  z-index: 1000000000;
+}
+menu li {
+  color:#ffffff !important;
+  font-family: Open Sans Condensed;
   font-weight: 700;
-}
-.nav li {
-  display:inline;
-  padding-right: 30px;
-  padding-left: 30px;
-  padding-bottom: 24px;
+  list-style: none;
+  float: left;
   font-size: 24px;
-  padding-top:25px;
-  margin-top:20px;
-  font-family: 'Open Sans Condensed', sans-serif;
-  text-transform:uppercase;
-  width: 100px; height: 100px;
-  -webkit-transition: ease-in-out box-shadow 600ms;
-  -moz-transition: ease-in-out box-shadow 600ms;
-  transition: ease-in-out box-shadow 600ms;
-  box-shadow:inset #63CAE3 0px 0px 0px;
+  height: 58px;
+  padding: 22px;
+  margin-top: 10px;
+  transition: all 0.2s linear;
+  -mos-transition: all 0.2s linear;
+  -o-transition: all 0.1s linear;
 }
-.nav li:hover {
-      background-position: 0 -100%;
-  box-shadow:inset #63CAE3 00px -100px 0px;
+
+menu img {
+  float: left;
+  width: 350px;
+  margin-top: -25px;
+  padding: 40px;
 }
-.nav-wrap{
-  margin-top:-21px
+
+menu li a{
+  color:#ffffff !important;
+    transition: all 0.4s linear;
+  -mos-transition: all 0.4s linear;
 }
-.nav a{
-  color:#fff;
-  text-decoration:none;
-}
-li.logo img{
-  position:relative;
-  top:18px;
-}
-li.logo:hover{
-  box-shadow:none;
+
+menu li:hover {
+  background: rgba(0, 0, 0, 0.19);
+  margin-top: -2px;
 }
