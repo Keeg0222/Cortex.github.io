@@ -13,8 +13,8 @@ function validate() {
 var un = document.myform.username.value;
 var pw = document.myform.pword.value;
 var valid = false;
-var unArray = ["username1", "username2", "username3", "username4"];  // as many as you like - no comma after final entry
-var pwArray = ["password1", "password2", "password3", "password4"];  // the corresponding passwords;
+var unArray = ["admin@cor-tex.tk", "keeg022200@hotmail.com", "username3", "demo@cor-tex.tk"];  // as many as you like - no comma after final entry
+var pwArray = ["admin", "329113815", "password3", "demo"];  // the corresponding passwords;
 for (var i=0; i <unArray.length; i++) {
 if ((un == unArray[i]) && (pw == pwArray[i])) {
 valid = true;
@@ -22,8 +22,8 @@ break;
 }
 }
 if (valid) {
-alert ("Login was sucessfully processed.  You will be redirected to the members page now.");
-window.location = "http://www.google.com";
+alert ("Login was sucessfully processed.  You will be redirected to the admin panel now.");
+window.location = "http://www.cor-tex.tk/pages/AcsdGhilioprght56z99013HgDg4.html";
 return false;
 }
 var t = " tries";
@@ -46,10 +46,21 @@ return false;
 }
 }
 </script>
+<center>
+  <h1>Sign In to the Admin panel for cortex media!</h1>
 <form name = "myform">
-<p>ENTER USER NAME <input type="text" name="username"> ENTER PASSWORD <input type="password" name="pword">
+<p>Email: <input type="text" name="username"> Password: <input type="password" name="pword">
 <input type="button" value="Check In" name="Submit" onclick= "validate()">
+<br>
+Password will be Employee Number**
+<br>
+If you dont have a username or password you can veiw the demo using <b>USERNAME: demo@cor-tex.tk</b> and <b>PASSWORD: demo</b>!
 </p>
 </form>
+</center>
 </body>
 </html>
+
+
+
+
